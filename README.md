@@ -10,10 +10,12 @@ PSU:	18650
 LEDS:	WS2812B
 
 ## Description:
-3x ESP32 als mesh netwerk die 1 AP spawnen
-Achter de AP draait een webserver waarop je scenes kan triggeren
-Per trigger (ajax functie of get parameter) wordt naar alle nodes een UDP bericht gestuurd
-elke scene heeft zijn eigen UDP trigger
+3 ESP32 MCU's in a mesh network that spawn one AP
+Upon connection to the AP a captive portal is served
+The captive portal serves a page on which you can trigger lightsequences
+Per trigger (ajax functie or get parameter) broadcasts over UDP/Mesh to all nodes
+Every scene has it's own trigger
+If there's enough time we'd like to implement artnet
 
 ## Scenes:
 1. Rainbow/CMY chase
@@ -46,13 +48,16 @@ I THINK WE NEED THIS:
 https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/ArtnetWifiFastLED.ino
 
 ## Resources:
-LED Library:  	https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32/
-LES Alternative:https://github.com/FastLED/FastLED
-Mesh Library: 	https://github.com/gmag11/painlessMesh/
-Artnet Library:	https://github.com/rstephan/ArtnetWifi
+[LED Library:]    (https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
+[LED Alternative] (https://github.com/FastLED/FastLED)
+[Mesh Library] 	  (https://github.com/gmag11/painlessMesh)
+[Artnet Library]  (https://github.com/rstephan/ArtnetWifi)
+[Captive portal]  (https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
+[Webserver]       (https://github.com/me-no-dev/ESPAsyncWebServer) needs [this] (https://github.com/me-no-dev/AsyncTCP)
 
 ## Docs:
-https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2
+[Mesh]            (https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
+[Captive portal]  (https://iotespresso.com/create-captive-portal-using-esp32/)
 
 ## To test:
 - [ ] Duration of 18650
