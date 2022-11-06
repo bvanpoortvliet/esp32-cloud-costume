@@ -43,9 +43,8 @@ X - X - X - X - X - X - X - X - X - X - X
 X - X - X - X - X - X - X - X - X - X - X
 
 ## TODO Option:
-Als extra optie artnet node inbouwen die als slave van een QLC of OLA instance met de lichttafel mee kan doen op dmx in.
-I THINK WE NEED THIS:
-https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/ArtnetWifiFastLED.ino
+When there's time left built in a artnet node that can function with QLC or OLA so we can be patched by a lightcomputer.
+- I THINK WE NEED THIS: [ArtnetWifiFastled](https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/ArtnetWifiFastLED.ino)
 
 ## Resources:
 [LED Library](https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
@@ -63,8 +62,8 @@ https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/Ar
 ## To test:
 - [ ] Duration of 18650
 - [ ] Which led library to use
-- [ ] Wifi mesh
+- [ ] Wifi mesh vs UDP
 - [X] Captive portal to control page -> does not read get on captive page so is useless
 - [ ] UDP broadcast to mesh/mesh messages
 - [ ] ArtnetWifi and Fastled
-- [ ] 
+- [ ] MDNS
