@@ -5,9 +5,9 @@
 ### This is a glorified todo list, code will appear later.
 
 #### Parts:
-MCU:	ESP32
-PSU:	18650
-LEDS:	WS2812B
+- MCU:	ESP32
+- PSU:	18650
+- LEDS:	WS2812B
 
 ## Description:
 3 ESP32 MCU's in a mesh network that spawn one AP
@@ -30,9 +30,9 @@ If there's enough time we'd like to implement artnet
 10.
 
 ## Led division
-Total of 144 Leds
-144 /3 costumes = 48 leds per costume
-48 /4 = 12 leds per row
+- Total of 144 Leds
+- 144 /3 costumes = 48 leds per costume
+- 48 /4 = 12 leds per row
 
 X - X - X - X - X - X - X - X - X - X - X
 
@@ -50,7 +50,7 @@ https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/Ar
 ## Resources:
 [LED Library](https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
 [LED Alternative](https://github.com/FastLED/FastLED)
-[Mesh Library](https://github.com/gmag11/painlessMesh)
+[Mesh Library](https://github.com/gmag11/painlessMesh) requires [this library](https://github.com/me-no-dev/AsyncTCP)
 [Artnet Library](https://github.com/rstephan/ArtnetWifi)
 [Captive portal](https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
 [Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) requires [this library](https://github.com/me-no-dev/AsyncTCP)
