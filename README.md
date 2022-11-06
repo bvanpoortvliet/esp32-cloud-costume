@@ -53,7 +53,7 @@ https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/Ar
 [Mesh Library](https://github.com/gmag11/painlessMesh)
 [Artnet Library](https://github.com/rstephan/ArtnetWifi)
 [Captive portal](https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
-[Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) needs [this] (https://github.com/me-no-dev/AsyncTCP)
+[Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) requires [this library](https://github.com/me-no-dev/AsyncTCP)
 [Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Docs:
