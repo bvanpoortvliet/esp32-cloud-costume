@@ -47,17 +47,17 @@ When there's time left built in a artnet node that can function with QLC or OLA 
 - I THINK WE NEED THIS: [ArtnetWifiFastled](https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/ArtnetWifiFastLED.ino)
 
 ## Resources:
-[LED Library](https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
-[LED Alternative](https://github.com/FastLED/FastLED)
-[Mesh Library](https://github.com/gmag11/painlessMesh) requires [this library](https://github.com/me-no-dev/AsyncTCP)
-[Artnet Library](https://github.com/rstephan/ArtnetWifi)
-[Captive portal](https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
-[Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) requires [this library](https://github.com/me-no-dev/AsyncTCP)
-[Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
+- [LED Library](https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
+- [LED Alternative](https://github.com/FastLED/FastLED)
+- [Mesh Library](https://github.com/gmag11/painlessMesh) requires [this library](https://github.com/me-no-dev/AsyncTCP)
+- [Artnet Library](https://github.com/rstephan/ArtnetWifi)
+- [Captive portal](https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
+- [Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) requires [this library](https://github.com/me-no-dev/AsyncTCP)
+- [Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Docs:
-[Mesh](https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
-[Captive portal](https://iotespresso.com/create-captive-portal-using-esp32/)
+-[Mesh](https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
+-[Captive portal](https://iotespresso.com/create-captive-portal-using-esp32/)
 
 ## To test:
 
