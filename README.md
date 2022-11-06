@@ -54,7 +54,7 @@ https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/Ar
 [Artnet Library]  (https://github.com/rstephan/ArtnetWifi)
 [Captive portal]  (https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
 [Webserver]       (https://github.com/me-no-dev/ESPAsyncWebServer) needs [this] (https://github.com/me-no-dev/AsyncTCP)
-[Serial Drivers]  (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+[Serial Drivers]  (https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Docs:
 [Mesh]            (https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
