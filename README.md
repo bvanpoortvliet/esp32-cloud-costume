@@ -1,5 +1,5 @@
 # esp32-cloud-costume
-ESP32 based cloud costume with leds
+[LilyGO T-Energy ESp-32](http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1170&FId=t3:50033:3) based cloud costume with leds
 
 
 ### This is a glorified todo list, code will appear later.
@@ -48,23 +48,23 @@ I THINK WE NEED THIS:
 https://github.com/rstephan/ArtnetWifi/blob/master/examples/ArtnetWifiFastLED/ArtnetWifiFastLED.ino
 
 ## Resources:
-[LED Library:]    (https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
-[LED Alternative] (https://github.com/FastLED/FastLED)
-[Mesh Library] 	  (https://github.com/gmag11/painlessMesh)
-[Artnet Library]  (https://github.com/rstephan/ArtnetWifi)
-[Captive portal]  (https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
-[Webserver]       (https://github.com/me-no-dev/ESPAsyncWebServer) needs [this] (https://github.com/me-no-dev/AsyncTCP)
-[Serial Drivers]  (https://github.com/WCHSoftGroup/ch34xser_macos)
+[LED Library](https://www.arduino.cc/reference/en/libraries/freenove-ws2812-lib-for-esp32)
+[LED Alternative](https://github.com/FastLED/FastLED)
+[Mesh Library](https://github.com/gmag11/painlessMesh)
+[Artnet Library](https://github.com/rstephan/ArtnetWifi)
+[Captive portal](https://github.com/espressif/arduino-esp32/blob/master/libraries/DNSServer/examples/CaptivePortal/CaptivePortal.ino)
+[Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) needs [this] (https://github.com/me-no-dev/AsyncTCP)
+[Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Docs:
-[Mesh]            (https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
-[Captive portal]  (https://iotespresso.com/create-captive-portal-using-esp32/)
+[Mesh](https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
+[Captive portal](https://iotespresso.com/create-captive-portal-using-esp32/)
 
 ## To test:
 - [ ] Duration of 18650
 - [ ] Which led library to use
 - [ ] Wifi mesh
-- [ ] Captive portal to control page
+- [X] Captive portal to control page -> does not read get on captive page so is useless
 - [ ] UDP broadcast to mesh/mesh messages
 - [ ] ArtnetWifi and Fastled
 - [ ] 
