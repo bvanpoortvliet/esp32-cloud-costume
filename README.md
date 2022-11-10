@@ -56,8 +56,8 @@ When there's time left built in a artnet node that can function with QLC or OLA 
 - [Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Docs:
--[Mesh](https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
--[Captive portal](https://iotespresso.com/create-captive-portal-using-esp32/)
+- [Mesh](https://randomnerdtutorials.com/esp-mesh-esp32-esp8266-painlessmesh/#2)
+- [Captive portal](https://iotespresso.com/create-captive-portal-using-esp32/)
 
 ## To test:
 
@@ -69,5 +69,5 @@ When there's time left built in a artnet node that can function with QLC or OLA 
 | <ul><li>- [ ] </li></ul>   | Captive portal serving control page  | in progress | 
 | <ul><li>- [ ] </li></ul>   | ArtnetWifi and Fastled               | in progress | 
 | <ul><li>- [x] </li></ul>   | MDNS                                 | Works as expected | 
-| <ul>X</ul>                 | Captive portal serving control page  | Cannot read GET request on portal page | 
+| <ul><li>- [ ] </li></ul>   | Captive portal serving control page  | Cannot read GET request on portal page, try with different server | 
 
