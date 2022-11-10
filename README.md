@@ -34,13 +34,13 @@ If there's enough time we'd like to implement artnet
 - 144 /3 costumes = 48 leds per costume
 - 48 /4 = 12 leds per row
 
-X - X - X - X - X - X - X - X - X - X - X
+X - X - X - X - X - X - X - X - X - X - X - X
 
-X - X - X - X - X - X - X - X - X - X - X
+X - X - X - X - X - X - X - X - X - X - X - X
 
-X - X - X - X - X - X - X - X - X - X - X
+X - X - X - X - X - X - X - X - X - X - X - X
 
-X - X - X - X - X - X - X - X - X - X - X
+X - X - X - X - X - X - X - X - X - X - X - X
 
 ## TODO Option:
 When there's time left built in a artnet node that can function with QLC or OLA so we can be patched by a lightcomputer.
