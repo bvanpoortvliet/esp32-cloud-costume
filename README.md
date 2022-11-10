@@ -66,7 +66,6 @@ When there's time left built in a artnet node that can function with QLC or OLA 
 | <ul><li>- [ ] </li></ul>   | Duration of 18650                    | in progress |
 | <ul><li>- [ ] </li></ul>   | Which led library to use             | in progress | 
 | <ul><li>- [ ] </li></ul>   | Wifi mesh vs UDP                     | in progress | 
-| <ul><li>- [ ] </li></ul>   | Captive portal serving control page  | in progress | 
 | <ul><li>- [ ] </li></ul>   | ArtnetWifi and Fastled               | in progress | 
 | <ul><li>- [x] </li></ul>   | MDNS                                 | Works as expected | 
 | <ul><li>- [ ] </li></ul>   | Captive portal serving control page  | Cannot read GET request on portal page, try with different server | 
