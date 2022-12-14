@@ -3,7 +3,7 @@
 
 #### This is a glorified todo list, code will appear later.
 
-#### Parts:
+#### Hardware
 - MCU:	ESP32
 - PSU:	18650
 - LEDS:	WS2812B
@@ -12,7 +12,7 @@
 3 ESP32 MCU's that spawn a softAP mesh. Via MDNS you can navigate to cloud.local which serves a page on which you can trigger lightsequences.
 Per trigger from webserver the node broadcasts over UDP/Mesh to all nodes, which in their turn listen to these messages and also trigger their sequences creating a "sync" - ish. Every scene has it's own trigger. Plus, Artnet control over the leds.
 
-## Scenes:
+## Scenes
 1. Colorbumps  
 2. Christmas Tree  
 3. Stars  
@@ -39,7 +39,7 @@ X - X - X - X - X - X - X - X - X - X - X - X
 
 X - X - X - X - X - X - X - X - X - X - X - X
 
-## Resources:
+## Resources
 - [Serial Drivers](https://github.com/WCHSoftGroup/ch34xser_macos)
 - [Webserver](https://github.com/me-no-dev/ESPAsyncWebServer) requires [this library](https://github.com/me-no-dev/AsyncTCP)
 - [LED Library](https://github.com/FastLED/FastLED)
